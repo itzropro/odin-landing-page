@@ -119,3 +119,12 @@ button{
     border: 5px solid rgb(0, 166, 255);
     width: 200px;
 }
+
+/* Quote Section */
+.extra_info{
+    background-color: #e5e7eb;
+    padding: 180px 280px;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+}
