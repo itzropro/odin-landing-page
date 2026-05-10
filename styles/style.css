@@ -8,6 +8,8 @@ body{
     flex-direction: column;
 }
 
+/* Header/Hero section */
+
 .hero{
     padding: 0 180px 180px;
     background-color: #1f2937;
@@ -78,5 +80,42 @@ button{
     font-size: 20px;
     padding: 8px 38px;
     border-radius: 8px;
+}
 
+/* Card section */
+
+.card_section{
+    text-align: center;
+    padding: 50px;
+}
+
+.card_title{
+    font-size: 32px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.card_section .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px; /* space between cards */
+    padding: 100px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    gap: 15px;
+}
+
+.card img{
+    border-radius: 28px;
+    border: 5px solid rgb(0, 166, 255);
+    width: 200px;
 }
