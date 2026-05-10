@@ -165,3 +165,11 @@ button{
     border: 2px solid white;
 }
 
+/* footer */
+.footer{
+    background-color: #1f2937;
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
+
