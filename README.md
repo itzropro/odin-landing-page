@@ -26,3 +26,17 @@ I only used the flex layout to align the sections and elements, which i have lea
 It was a really good project to get a better hang of nesting the sections and subsections, i had to separate, and group several items with divs to align them where they are supposed to be. I had to decide in which section i have to put an element so it aligns properly with other elements.
 
 In conclusion it was a great beginner level project, it help you strengthen your html structuring, how you deal with nesting, paddings, margins, and alignment, also how you manage to gather your free resources. I also had to think about the theme of the page and what the page is about, so it trains you to find ideas.
+
+## Credits and Attributes
+
+_Special thanks to them for providing free resources_
+
+1. Programmers working on a computer image by - Mikhail Nilov on Pexels: "https://www.pexels.com/@mikhail-nilov/"
+
+2. Android logo image by - ornecolorada on Pixabay: "https://pixabay.com/users/ornecolorada-4000710/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1904852
+
+3. Man playing game on the computer illustration by - freepik: "https://www.magnific.com/free-vector/online-games-addiction-illustration-with-man-playing_7814837.htm#fromView=keyword&page=1&position=28&uuid=2c311eaa-df6f-49d9-8de5-2c40df580b2d&query=Game+developer"
+
+4. HTML logo Image by - Nikin from Pixabay: "https://pixabay.com/users/nikin-253338/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2188441"
+
+5. Cyber security shield Image by - Pete Linforth from Pixabay: "https://pixabay.com/users/thedigitalartist-202249/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4851426
