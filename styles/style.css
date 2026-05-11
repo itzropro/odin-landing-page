@@ -33,7 +33,7 @@ body{
 .header .logo{
     font-size: 24px;
     color: #f9faf8;
-    font-weight: bolder;
+    font-weight: 900;
 }
 
 .links{
@@ -44,7 +44,7 @@ body{
 ul{
     list-style-type: none; /*remove the bullet points*/
     display: flex;
-    gap: 10px;
+    gap: 28px;
 }
 
 a,
@@ -56,7 +56,6 @@ a,
 
 .intro-text{
     margin: 10px 0px;
-    font-size: 22px;
 }
 
 .intro{
@@ -68,7 +67,6 @@ a,
 
 .intro img{
     width: 620px;
-    height: 300px;
     flex-shrink: 0;
 }
 
