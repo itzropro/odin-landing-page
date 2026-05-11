@@ -147,8 +147,8 @@ button{
 
 .sign-up-card{
     display: flex;
-    padding: 60px;
-    justify-content: space-around;
+    padding: 60px 150px;
+    justify-content: space-between;
     color: #e5e7eb;
     background-color: #3882f6;
     flex: 1;
@@ -162,6 +162,10 @@ button{
     font-weight: bold;
 }
 
+.sign-up-sub-text{
+    font-size:  18px;
+}
+
 .sign-up button{
     border: 2px solid white;
 }
@@ -172,6 +176,6 @@ button{
     padding: 38px;
     color: white;
     text-align: center;
-    font-size: 22px;
+    font-size: 26px;
 }
 
