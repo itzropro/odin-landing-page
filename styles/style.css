@@ -1,5 +1,7 @@
+/* Body and document */
+
 *{
-    margin: 0;
+    margin: 0; /*Reset all default margins and paddings*/
     padding: 0;
 }
 
@@ -18,9 +20,7 @@ body{
 
 .header{
     display: flex;
-    display: flex;
     flex-direction: column;
-    font-family: roboto, sans-serif;
 }
 
 .nav{
@@ -29,6 +29,7 @@ body{
     padding: 20px 0;
     margin-bottom: 120px;
 }
+
 .header .logo{
     font-size: 24px;
     color: #f9faf8;
@@ -41,8 +42,8 @@ body{
 }
 
 ul{
+    list-style-type: none; /*remove the bullet points*/
     display: flex;
-    list-style-type: none;
     gap: 10px;
 }
 
@@ -59,10 +60,10 @@ a,
 }
 
 .intro{
+    gap: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 40px;
 }
 
 .intro img{
@@ -76,19 +77,20 @@ a,
     font-weight: 900;
     color: #f9faf8;
 }
+
 button{
-    background-color: #3882f6;
     color: #f9faf8;
     font-size: 24px;
     padding: 8px 45px;
     border-radius: 8px;
+    background-color: #3882f6;
 }
 
 /* Card section */
 
 .card_section{
-    text-align: center;
     padding: 50px;
+    text-align: center;
 }
 
 .card_title{
@@ -99,8 +101,8 @@ button{
 
 .card_section .container{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     gap: 60px; /* space between cards */
     padding: 100px;
 }
@@ -108,54 +110,56 @@ button{
 .card{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    text-align: center;
+    justify-content: center;
+    gap: 15px;
     width: 200px;
     height: 200px;
-    gap: 15px;
     font-size: 18px;
+    text-align: center;
 }
 
 .card img{
+    width: 200px;
     border-radius: 28px;
     border: 5px solid rgb(0, 166, 255);
-    width: 200px;
 }
 
 /* Quote Section */
+
 .extra_info{
-    background-color: #e5e7eb;
-    padding: 150px 500px;
+    color: #1f2937;
     font-size: 36px;
     font-weight: 300;
-    color: #1f2937;
+    padding: 150px 500px;
+    background-color: #e5e7eb;
 }
 
 .extra_info strong{
-    display: block;
-    text-align: end;
+    display: block; /*To move the text to new line*/
+    text-align: end; /*Align the text to the right*/
     font-weight: bold;
-    margin: 0  30px 0 0;
+    margin: 0  30px 0 0; /*Add margin to the right to push the text to left*/
 }
 
 /* sign in section */
+
 .sign-up{
     display: flex;
-    padding: 120px 270px;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    padding: 120px 270px;
 }
 
 .sign-up-card{
+    flex: 1;
     display: flex;
-    padding: 80px 150px;
+    align-items: center;
     justify-content: space-between;
     color: #e5e7eb;
-    background-color: #3882f6;
-    flex: 1;
-    align-items: center;
     border-radius: 8px;
+    padding: 80px 150px;
+    background-color: #3882f6;
 }
 
 .sign-up-title{
@@ -173,11 +177,11 @@ button{
 }
 
 /* footer */
+
 .footer{
-    background-color: #1f2937;
     padding: 50px 0;
+    font-size: 24px;
     color: #e5e7eb;
     text-align: center;
-    font-size: 24px;
+    background-color: #1f2937;
 }
-
