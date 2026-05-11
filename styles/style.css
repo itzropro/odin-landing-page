@@ -55,6 +55,7 @@ a,
 
 .intro-text{
     margin: 10px 0px;
+    font-size: 22px;
 }
 
 .intro{
@@ -125,7 +126,7 @@ button{
 /* Quote Section */
 .extra_info{
     background-color: #e5e7eb;
-    padding: 180px 280px;
+    padding: 180px 500px;
     font-size: 36px;
     font-weight: 300;
     color: #1f2937;
@@ -141,20 +142,20 @@ button{
 /* sign in section */
 .sign-up{
     display: flex;
-    padding: 120px 250px;
+    padding: 120px 270px;
     justify-content: center;
     align-items: center;
 }
 
 .sign-up-card{
     display: flex;
-    padding: 60px 150px;
+    padding: 80px 150px;
     justify-content: space-between;
     color: #e5e7eb;
     background-color: #3882f6;
     flex: 1;
     align-items: center;
-    border-radius: 12px;
+    border-radius: 8px;
 }
 
 .sign-up-title{
@@ -164,11 +165,11 @@ button{
 }
 
 .sign-up-sub-text{
-    font-size:  18px;
+    font-size:  24px;
 }
 
 .sign-up button{
-    border: 2px solid white;
+    border: 3px solid white;
 }
 
 /* footer */
